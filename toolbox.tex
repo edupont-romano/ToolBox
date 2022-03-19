@@ -1,0 +1,30 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[french]{babel}
+\usepackage{graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage{nameref}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tcolorbox}
+\usepackage{colortbl}
+\usepackage{placeins}
+\usepackage{longtable} % tableaux qui tiennent sur plusieurs pages
+ 
+
+\newcommand\element[1]{\textcolor{blue}{\textit{#1}}}
+\newcommand\acompleter[1]{\textcolor{red}{\uppercase{\textbf{A COMPLETER: #1\\}}}}
+
+\newcommand\important[1]{
+\begin{tcolorbox}[colback=white,colframe=red!75!black,title=Important]
+#1
+\end{tcolorbox}
+}
+
+\newcommand\note[1]{
+\begin{tcolorbox}
+#1
+\end{tcolorbox}
+}
