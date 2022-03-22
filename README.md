@@ -19,3 +19,11 @@ Make a red box, with a text must be higlighted
 ##note
 Make a grey box, with a text which is not directly links to the rule
 > \note{Ceci est une note}
+
+##dateVersion
+Add today and version of file
+> \dateVersion{version}
+
+##qrCode
+Add a qrCode to my site
+> \qrCode
