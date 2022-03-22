@@ -24,6 +24,6 @@ Make a grey box, with a text which is not directly links to the rule
 Add today and version of file
 > \dateVersion{version}
 
-##qrCode
-Add a qrCode to my site
-> \qrCode
+##\edr
+Add a qr code around author
+> \edr
